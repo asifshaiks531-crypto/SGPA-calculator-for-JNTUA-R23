@@ -1,0 +1,18 @@
+* {
+  box-sizing: border-box;
+}
+
+html, body, #root {
+  margin: 0;
+  padding: 0;
+  min-height: 100%;
+}
+
+body {
+  -webkit-font-smoothing: antialiased;
+}
+
+input:focus, button:focus {
+  outline: 2px solid #4a5d23;
+  outline-offset: 1px;
+}
